@@ -9,7 +9,7 @@ print('§' * 50)
 
 #How to access individual item in a list
 MyListValue = MyList[0]
-MyListValue2 = MyList[-1] # we can use minus as well 
+MyListValue2 = MyList[-3] # we can use minus as well but it will start from backward
 print(MyListValue)
 print(MyListValue2)
 

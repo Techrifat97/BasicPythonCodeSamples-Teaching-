@@ -20,3 +20,27 @@ count = my_list.count(4)  # Counts how many times 4 appears in the list
 
 my_list.clear()  # Removes all elements from my_list
 copied_list = my_list.copy()  # Creates a shallow copy of my_list
+
+my_list = [10, 20, 30, 40, 50]
+
+# Popping the last item
+last_item = my_list.pop()
+print(last_item)  # Output: 50
+print(my_list)    # Output: [10, 20, 30, 40]
+
+# Popping the item at index 1
+second_item = my_list.pop(1)
+print(second_item)  # Output: 20
+print(my_list)      # Output: [10, 30, 40]
+
+my_list = [3, 1, 4, 1, 5]
+my_list.reverse()
+print(my_list)  # Output: [5, 1, 4, 1, 3]
+
+my_list = [3, 1, 4, 1, 5]
+my_list.sort()
+print(my_list)  # Output: [1, 1, 3, 4, 5]
+
+my_list = [3, 1, 4, 1, 5]
+length = len(my_list)
+print(length)  # Output: 5
