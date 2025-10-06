@@ -23,3 +23,6 @@ num2 = int(input("2nd value for add: "))
 
 result = add_values(num1, num2)
 print(result)
+
+
+print("Trying some new settings")
